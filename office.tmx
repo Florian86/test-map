@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="34" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="35" nextobjectid="1">
+ <editorsettings>
+  <export target="office.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="Office_interiors_32x32" tilewidth="32" tileheight="32" tilecount="528" columns="22">
   <image source="assets/Office_interiors_32x32.png" trans="ff00ff" width="704" height="768"/>
  </tileset>
@@ -660,4 +663,5 @@
 </data>
   </layer>
  </group>
+ <objectgroup id="34" name="floorLayer"/>
 </map>
